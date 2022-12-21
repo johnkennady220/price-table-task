@@ -1,0 +1,112 @@
+body {
+  background: linear-gradient(to right, #0062e6, #33aeff);
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1690px;
+  }
+}
+
+section.pricing {
+  background: #007bff;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.card-price {
+  font-size: 50px;
+}
+
+.period {
+  font-size: 1rem;
+}
+
+.pricing ul,
+li {
+  margin-bottom: 1rem;
+  font-size: large;
+  padding-left: 12px;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .card-body:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 transparent;
+  }
+}
+.card-body,
+.a {
+  width: 100%;
+}
+.card,
+.a {
+  border-radius: 1rem;
+}
+
+.card {
+  border: none;
+}
+
+.b {
+  font-size: 25px;
+}
+.done {
+  font-weight: bold;
+}
+.dim,
+.dim2 {
+  color: #989fa4;
+}
